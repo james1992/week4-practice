@@ -4,10 +4,12 @@ body {
 .content-wrapper {
   margin-left: 10%;
   margin-right: 10%;
+  height: 769px;
+  width: 1281px;
 }
 h1 {
-  text-align: center;
-  color: mediumpurple;
+  margin-left: 16%;
+  color: #8262AE;
   font-family: sans-serif;
   font-size: 300%;
   margin-bottom: 2%;
@@ -21,8 +23,8 @@ h1 {
   padding-right: 4%;
   padding-bottom: .8%;
   padding-top: .8%;
-  background-color: blueviolet;
-  border-right: 3px solid black;
+  background-color: #8468B3;
+  border-right: 3px solid #674B96;
 }
 #last-link {
   border: none;
@@ -36,11 +38,12 @@ h1 {
 .main-content {
   clear: both;
 }
+/* Index Page Main Content */
 .main-content-right {
   float: right;
-  background-color: lightgray;
-  padding: 13% 13% 10.59%;
-  margin-right: 2.2%;
+  background-color: #E1E4E9;
+  padding: 13% 14.5% 11.85%;
+  margin-right: 11%;
   text-align: center;
 }
 .main-content-right img {
@@ -48,8 +51,9 @@ h1 {
 }
 .main-content-left {
   float: left;
-  background-color: plum;
-  padding: 14% 7.59% 15.7% 7.59%;
+  background-color: #C0B2D5;
+  padding: 14% 7.64% 15.7% 7.59%;
+  border-right: 1.3px solid #C0B2D5;
 }
 .main-content-left ul li {
   padding-bottom: 45%;
@@ -60,10 +64,61 @@ h1 {
   font-size: 125%;
   font-weight: bold;
 }
+/* Second Page Main Content */
+.main-content-right-second-page {
+  float: right;
+  background-color: #E1E4E9;
+  padding: 13% 14.5% 11.85%;
+  margin-right: 11%;
+  text-align: center;
+}
+.main-content-right-second-page img {
+  padding-bottom: 5%;
+}
+.main-content-left-second-page {
+  float: left;
+  background-color: #C0B2D5;
+  padding: 14% 7.64% 15.7% 7.59%;
+  border-right: 1.3px solid #C0B2D5;
+}
+.main-content-left-second-page ul li {
+  padding-bottom: 45%;
+}
+.main-content-left-second-page ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 125%;
+  font-weight: bold;
+}
+/* Third Page Main Content */
+.main-content-right-third-page {
+  float: right;
+  background-color: #E1E4E9;
+  padding: 13% 14.5% 11.85%;
+  margin-right: 11%;
+  text-align: center;
+}
+.main-content-right-third-page img {
+  padding-bottom: 5%;
+}
+.main-content-left-third-page {
+  float: left;
+  background-color: #C0B2D5;
+  padding: 14% 7.64% 15.7% 7.59%;
+  border-right: 1.3px solid #C0B2D5;
+}
+.main-content-left-third-page ul li {
+  padding-bottom: 45%;
+}
+.main-content-left-third-page ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 125%;
+  font-weight: bold;
+}
 .bottom-nav {
   clear: both;
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 33%;
   padding-top: 3%;
   width: 100%;
 }
