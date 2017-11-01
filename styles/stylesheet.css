@@ -19,8 +19,8 @@ h1 {
   float: left;
   padding-left: 4%;
   padding-right: 4%;
-  padding-bottom: .5%;
-  padding-top: .5%;
+  padding-bottom: .8%;
+  padding-top: .8%;
   background-color: blueviolet;
   border-right: 3px solid black;
 }
@@ -39,9 +39,12 @@ h1 {
 .main-content-right {
   float: right;
   background-color: lightgray;
-  padding: 13%;
+  padding: 13% 13% 10.59%;
   margin-right: 2.2%;
   text-align: center;
+}
+.main-content-right img {
+  padding-bottom: 5%;
 }
 .main-content-left {
   float: left;
