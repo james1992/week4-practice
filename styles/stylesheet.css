@@ -68,54 +68,49 @@ h1 {
 .main-content-right-second-page {
   float: right;
   background-color: #E1E4E9;
-  padding: 13% 14.5% 11.85%;
+  padding: 24.61% .5%;
   margin-right: 11%;
   text-align: center;
+  width: 858.5px;
 }
-.main-content-right-second-page img {
-  padding-bottom: 5%;
-}
+
 .main-content-left-second-page {
   float: left;
   background-color: #C0B2D5;
-  padding: 14% 7.64% 15.7% 7.59%;
+  padding: 14.08% 1.07%;
   border-right: 1.3px solid #C0B2D5;
+  text-align: left;
+  width: 240px;
 }
-.main-content-left-second-page ul li {
-  padding-bottom: 45%;
+.main-content-left-second-page p {
+  padding-bottom: 10px;
 }
-.main-content-left-second-page ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 125%;
-  font-weight: bold;
-}
+
 /* Third Page Main Content */
 .main-content-right-third-page {
   float: right;
   background-color: #E1E4E9;
-  padding: 13% 14.5% 11.85%;
+  padding: 22.89% 18.05%;
   margin-right: 11%;
   text-align: center;
 }
-.main-content-right-third-page img {
+.main-content-right-third-page table, td, th {
+  border: black solid 1px;
+  padding: 1%;
+}
+.main-content-right-third-page h3 {
   padding-bottom: 5%;
 }
 .main-content-left-third-page {
   float: left;
   background-color: #C0B2D5;
-  padding: 14% 7.64% 15.7% 7.59%;
-  border-right: 1.3px solid #C0B2D5;
+  padding: 18.27% 1.17%;
+  border-right: 1.5px solid #C0B2D5;
 }
-.main-content-left-third-page ul li {
-  padding-bottom: 45%;
+.main-content-left-third-page img, figcaption {
+  max-width: 300px
 }
-.main-content-left-third-page ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 125%;
-  font-weight: bold;
-}
+
 .bottom-nav {
   clear: both;
   margin-left: 33%;
